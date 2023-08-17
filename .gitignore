@@ -82,7 +82,7 @@ debug/
 selenium-bdd-java/target/**
 selenium-bdd-java/test-output/**
 
-playwright_test_framework/allure-report/**
-playwright_test_framework/allure-results/**
-playwright_test_framework/node_modules/**
-playwright_test_framework/test-results/**
+**/node_modules/
+**/allure-report/
+**/allure-results/
+**/test-results/
