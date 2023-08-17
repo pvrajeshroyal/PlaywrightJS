@@ -11,5 +11,5 @@ test('login test', async({page}) =>{
     expect(title).toBe('OrangeHRM')
     
     login.signIn(data.userName,data.password)
-    await expect(page).toHaveURL(data.baseUrl+'/dashboard/inde', { timeout: 5000 })
+    await expect(page).toHaveURL(data.baseUrl+'/dashboard/index', { timeout: 5000 })
 })
