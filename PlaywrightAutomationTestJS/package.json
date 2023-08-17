@@ -1,0 +1,20 @@
+{
+  "name": "playwright_test_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.0",
+    "allure-commandline": "^2.23.1",
+    "allure-playwright": "^2.5.0"
+  },
+  "dependencies": {
+    "expect-playwright": "^0.8.0"
+  }
+}
