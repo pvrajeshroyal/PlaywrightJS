@@ -1,8 +1,4 @@
-{
-  "name": "playwright_test_framework",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+{  
   "scripts": {
     "test": "npx playwright test"
   },

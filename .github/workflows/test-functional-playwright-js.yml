@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          npx playwright install
+        working-directory: ./test-functional-playwright-js
 
       - name: Run your tests
-        run: npm test
+        run: npm run test
             
