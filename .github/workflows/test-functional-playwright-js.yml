@@ -24,10 +24,9 @@ jobs:
           node-version: '16'  # Update to Node.js version 16
 
       - name: Install dependencies
-        run: |
-          npm install
-        working-directory: ./PlaywrightJS
+        run: npm install
+        working-directory: ./RajeshDevonPlaywright
 
       - name: Run your tests
         run: npm run test
-            
+        working-directory: ./RajeshDevonPlaywright    
