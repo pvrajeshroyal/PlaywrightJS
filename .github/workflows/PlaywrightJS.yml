@@ -6,7 +6,7 @@ on:
     branches:
       - master
     paths:
-      - PlaywrightJS/**
+      - PlaywrightJS/
       - .github/workflows/PlaywrightJS.yml
   workflow_dispatch:
 
