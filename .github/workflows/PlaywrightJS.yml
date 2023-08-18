@@ -1,4 +1,4 @@
-name: test-functional-playwright-js
+name: PlaywrightJS
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
       - master
     paths:
       - PlaywrightJS/**
-      - .github/workflows/test-functional-playwright-js.yml
+      - .github/workflows/PlaywrightJS.yml
   workflow_dispatch:
 
 jobs:
