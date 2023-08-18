@@ -1,4 +1,4 @@
-name: PlaywrightJS
+name: test-functional-playwright-js
 
 on:
   pull_request:
@@ -6,8 +6,8 @@ on:
     branches:
       - master
     paths:
-      - PlaywrightJS/
-      - .github/workflows/PlaywrightJS.yml
+      - test-functional-playwright-js/**
+      - .github/workflows/test-functional-playwright-js.yml
   workflow_dispatch:
 
 jobs:
@@ -27,8 +27,6 @@ jobs:
         run: |
             npm install
             npx playwright install
-        working-directory: ./PlaywrightJS
 
       - name: Run your tests
-        run: npm run test
-        working-directory: ./PlaywrightJS    
+        run: npm run test    
