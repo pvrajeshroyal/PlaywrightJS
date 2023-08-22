@@ -1,5 +1,7 @@
 {
     "baseUrl": "https://opensource-demo.orangehrmlive.com/web/index.php",
     "userName": "Admin",
-    "password": "admin123"
+    "password": "admin123",
+    "apiBaseUrl": "http://rahulshettyacademy.com/maps/api/place",
+    "queryParam": "key=qaclick123"
 }
